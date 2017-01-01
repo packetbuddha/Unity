@@ -2,16 +2,18 @@ Mono path[0] = 'C:/Users/tewks/git/Unity/FPS1/Builds/fps1_Data/Managed'
 Mono path[1] = 'C:/Users/tewks/git/Unity/FPS1/Builds/fps1_Data/Mono'
 Mono config path = 'C:/Users/tewks/git/Unity/FPS1/Builds/fps1_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/tewks/git/Unity/FPS1/Builds/fps1_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55138
-Multi-casting "[IP] 192.168.0.9 [Port] 55138 [Flags] 2 [Guid] 3708067295 [EditorId] 1038922229 [Version] 1048832 [Id] WindowsPlayer(t3wks) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.0.9:55138]
-Initialize engine version: 5.4.3f1 (01f4c123905a)
+PlayerConnection initialized network socket : 0.0.0.0 55383
+Multi-casting "[IP] 192.168.0.9 [Port] 55383 [Flags] 2 [Guid] 4173701961 [EditorId] 3235576223 [Version] 1048832 [Id] WindowsPlayer(t3wks) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55383]
+PlayerConnection already initialized - listening to [0.0.0.0:55383]
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   NVIDIA
     VRAM:     3072 MB
+    Driver:   21.21.13.7619
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -23,22 +25,24 @@ Platform assembly: C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityE
 Loading C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.120 seconds
+Platform assembly: C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.132 seconds
 Platform assembly: C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\tewks\git\Unity\FPS1\Builds\fps1_Data\Managed\System.dll (this message is harmless)
 desktop: 2560x1440 120Hz; virtual: 2560x1440 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.705902 ms
+UnloadTime: 0.886802 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1a48 -> priority: 1 
-  Thread -> id: 3b7c -> priority: 1 
+  Thread -> id: 1b8 -> priority: 1 
+  Thread -> id: 25c0 -> priority: 1 
 Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
 NullReferenceException: Object reference not set to an instance of an object
-  at PlayerSetup.OnDisable () [0x00000] in C:\Users\tewks\git\Unity\FPS1\Assets\Resources\Scripts\PlayerSetup.cs:60 
+  at PlayerSetup.OnDisable () [0x00007] in C:\Users\tewks\git\Unity\FPS1\Assets\Scripts\PlayerSetup.cs:60 
 UnityEngine.Object:Destroy(Object, Single)
-UnityEngine.Object:Destroy(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:85)
+UnityEngine.Object:Destroy(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineObjectBindings.gen.cs:76)
 UnityEngine.Networking.NetworkScene:DestroyAllClientObjects() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkScene.cs:260)
 UnityEngine.Networking.ClientScene:DestroyAllClientObjects() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\ClientScene.cs:455)
 UnityEngine.Networking.NetworkManager:StopClient() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkManager.cs:615)
@@ -50,7 +54,7 @@ UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Exte
 UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:950)
 UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:1073)
  
-(Filename: C:/Users/tewks/git/Unity/FPS1/Assets/Resources/Scripts/PlayerSetup.cs Line: 60)
+(Filename: C:/Users/tewks/git/Unity/FPS1/Assets/Scripts/PlayerSetup.cs Line: 60)
 
 ClientDisconnected due to error: Timeout
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
