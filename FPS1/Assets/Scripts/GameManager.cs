@@ -33,4 +33,19 @@ public class GameManager : MonoBehaviour {
         }
             
     }
+
+    private void OnGUI ()
+    {
+        GUILayout.BeginArea (new Rect(Screen.width / 2, Screen.height / 2, 200, 200));
+        GUILayout.BeginVertical();
+        
+        foreach (string i in players.Keys)          
+        {
+            GUILayout.BeginHorizontal();
+            GUILayout.TextField("netID: " + i + " #### Player Name: " + players[i].name);
+            GUILayout.EndHorizontal();
+        }
+        GUILayout.EndVertical();
+        GUILayout.EndArea();
+    }
 }
