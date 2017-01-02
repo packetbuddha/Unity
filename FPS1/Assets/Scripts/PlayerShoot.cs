@@ -49,5 +49,12 @@ public class PlayerShoot : NetworkBehaviour {
     void CmdPlayerHit (string _playerID)
     {
         Debug.Log(_playerID + " has been hit");
+
+        Player player = GameManager.GetPlayer(_playerID);
+        if (player)
+        {
+            player.TakeDamage(weapon.damage);
+        }
+
     }
 }

@@ -14,7 +14,7 @@ public class PlayerSetup : NetworkBehaviour {
     Camera sceneCamera;
 
     private void Start()
-    {
+    { 
         if (!isLocalPlayer)
         {
             DisableComponents();
@@ -78,7 +78,8 @@ public class PlayerSetup : NetworkBehaviour {
         }
 
         GameManager.UnRegisterPlayer(transform.name);
-        
+        Cursor.lockState = CursorLockMode.None;
+
 
 
     }
